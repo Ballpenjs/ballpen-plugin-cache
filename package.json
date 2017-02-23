@@ -1,6 +1,6 @@
 {
   "name": "ballpen-plugin-cache",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ballpen.js build-in plugins.",
   "main": "dist/ballpen-plugin-cache.min.js",
   "scripts": {
