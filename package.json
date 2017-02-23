@@ -4,7 +4,8 @@
   "description": "Ballpen.js build-in plugins.",
   "main": "dist/ballpen-plugin-cache.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "rollup -c -w",
+    "dev-server": "browser-sync start --server --files 'dist/*.js'"
   },
   "repository": {
     "type": "git",
@@ -42,5 +43,8 @@
     "rollup-plugin-node-resolve": "^2.0.0",
     "rollup-plugin-uglify": "^1.0.1",
     "rollup-watch": "^3.2.2"
+  },
+  "dependencies": {
+    "localforage": "^1.5.0"
   }
 }
